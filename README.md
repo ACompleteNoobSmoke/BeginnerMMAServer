@@ -49,3 +49,7 @@ About Page:
 Basic about page. Information was directly from https://en.wikipedia.org/wiki/Mixed_martial_arts
 
 
+![about1](https://user-images.githubusercontent.com/37892736/153758350-78d96939-2fbe-4d88-a32b-cc845b576b60.png)
+![about2](https://user-images.githubusercontent.com/37892736/153758352-8f9bf022-a301-425d-b77d-9c342ef3a7e8.png)
+
+
