@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/projectcss/indexcss.css">
+    <script src="static/script/createafighter.js"></script>
+    <title>Fighter Creation</title>
+</head>
+<body>
+    <header class="page-header">
+        <nav class="page-nav">
+            <span><a href="/"><img src="visual/images/lilb.jpg" alt=""></a></span>
+            <ul class="page-links">
+                <li><a href="/">HOME</a></li>
+                <li><a href="/fightercreationview">CREATION</a></li>
+                <li><a href='/storeview'>STORE</a></li>
+                <li><a href='/aboutview'>ABOUT</a></li>
+            </ul>
+        </nav>
+        <h1 class="page-title title">BASED MIXED MARTIAL ARTS</h1>
+    </header>
+    <section class="page-body create-body">
+        <section class="fighter-form">
+            <form action="/createfighterinfo" method="post">
+                <h2>CREATE A FIGHTER</h2>
+                <label for="firstName">First Name: </label>
+                <input type="text" id="fname" name="fname" required>
+                <br>
+                <label for="lastName">Last Name: </label>
+                <input type="text" id="lname" name="lname" required>
+                <br><br>
+                <label for="gender">Gender:</label>
+                <input type="radio" name="genderChoice" id="maleGender" value="Male" required> Male
+                <input type="radio" name="genderChoice" id="femaleGender" value="Female"> Female
+                <br><br>
+                <label for="weightClass">Weight Class</label> 
+                <select name="weightSelection" id="weightSelection" required>
+                </select>
+                <br><br>
+                <label for="strikingLabel">Striking Style</label>
+                <br>
+                <input type="radio" name="striking" value="Boxing" required> Boxing
+                <br>
+                <input type="radio" name="striking" value="Kickboxing"> Kickboxing
+                <br>
+                <input type="radio" name="striking" value="Muay-Thai"> Muay Thai
+                <br><br>
+                <label for="grapplingLabel">Grappling Style</label>
+                <br>
+                <input type="radio" name="grappling" value="BJJ" required> Brazilian Jiu Jitsu
+                <br>
+                <input type="radio" name="grappling" value="Judo"> Judo
+                <br>
+                <input type="radio" name="grappling" value="Wrestling"> Wrestling
+                <br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section >
+            <div class="striking-style cards">
+                <div class="style-card card">
+                    <div class="style-title card-title"><h1>Boxing</h1></div>
+                   <div class="style-image card-image"><img src="visual/images/Striking.jpg" alt=""></div>
+                   <div class="style-info card-info"><strong>Boxing</strong> is still one of the growing aspects of Mixed Martial Arts. 
+                    <strong>Boxers</strong> have good,crisp hand combinations, head & foot movement that can result in devasting knockouts</div>
+                </div>
+                <div class="style-card card">
+                    <div class="style-title card-title"><h1>Kickboxing</h1></div>
+                    <div class="style-image card-image"><img src="visual/images/Kickboxer.jpg" alt=""></div>
+                    <div class="style-info card-info"> <strong>Kickboxers</strong> use a combination of <strong>punching</strong> and <strong>kicking</strong> 
+                        to keep their opponent broken down and guessing where strikes will come from.</div>
+                </div>
+                <div class="style-card card">
+                    <div class="style-title card-title"><h1>Muay Thai</h1></div>
+                    <div class="style-image card-image"><img src="visual/images/MuayThai.jpg" alt=""></div>
+                    <div class="style-info card-info"><strong>Muay Thai</strong> is <strong>The Art Of Eight Limbs</strong>. It is a striking style 
+                        that the fighter utilizes <Strong>Hands, Legs, Elbows & Knees</Strong> to <strong>Brutalize</strong> the opponent.</div>
+                </div>
+            </div>
+            <div class="grappling-style cards">
+                <div class="style-card card">
+                    <div class="style-title card-title"><h1>Brazilian Jiu Jitsu</h1></div>
+                    <div class="style-image card-image"><img src="visual/images/Submission.jpeg" alt=""></div>
+                    <div class="style-info card-info"><strong>Brazilian Jiu Jitsu</strong> is what led to the birth of Mixed Martial Arts & UFC. 
+                        Control opponents with grappling which can lead to <strong>Submissions</strong>. </div>
+                </div>
+                <div class="style-card card">
+                    <div class="style-title card-title"><h1>Judo</h1></div>
+                    <div class="style-image card-image"><img src="visual/images/judo.jpg" alt=""></div>
+                    <div class="style-info card-info"><strong>Judo</strong> is still one of the growing aspects of Mixed Martial Arts. 
+                        This grappling style is using your opponents momentum against them leading to impactful <strong>Throws</strong> & <strong>Submissions</strong>.</div>
+                </div>
+                <div class="style-card card">
+                    <div class="style-title card-title"><h1>Wrestling</h1></div>
+                    <div class="style-image card-image"><img src="visual/images/Wrestling.jpg" alt=""></div>
+                    <div class="style-info card-info"><strong>Wrestling</strong> is one of the strongest foundations in Mixed Martial Arts.
+                    Having good wrestling gives the ability to dictate where the fight takes place.</div>
+                </div>
+            </div> 
+        </section>
+    </section>
+    <footer class="page-footer">
+        <h2 class="page-title title">BASED MIXED MARTIAL ARTS</h2>
+        <ul class="footer-links">
+            <li><a href="https://www.ufc.com/" target="_blank"><img src="visual/images/UFCLogo.jpg" alt="ufllogo"></a></li>
+            <li><a href="https://www.bellator.com/" target="_blank"><img src="visual/images/BellatorLogo.png" alt="bellatorlogo"></a></li>
+            <li><a href="https://www.pflmma.com/" target="_blank"><img src="visual/images/PFLLogo.png" alt="pfllogo"></a></li>
+            <li><a href="http://www.rizinff.com/en/" target="_blank"><img src="visual/images/Rizin.png" alt="rizinlogo"></a></li>
+        </ul>
+    </footer>
+</body>
+</html>

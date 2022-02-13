@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/projectcss/indexcss.css">
+    <title>Fighter Creation</title>
+</head>
+<body>
+    <header class="page-header">
+        <nav class="page-nav">
+            <span><a href="/"><img src="visual/images/lilb.jpg" alt=""></a></span>
+            <ul class="page-links">
+                <li><a href="/">HOME</a></li>
+                <li><a href="/fightercreationview">CREATION</a></li>
+                <li><a href='/storeview'>STORE</a></li>
+                <li><a href='/aboutview'>ABOUT</a></li>
+            </ul>
+        </nav>
+        <h1 class="page-title title">BASED MIXED MARTIAL ARTS</h1>
+    </header>
+    <section class="page-body create-body">
+        <section class="fighter-form">
+            <form action="/clearObject" method="get">
+                <h2>NEW FIGHTER</h2>
+                <div class="avatarContainer">
+                    <img class="avatar" src= <%=avimage %> alt="">
+                </div>
+                <label for="firstName">First Name: <%=fname %></label>
+                <br>
+                <label for="lastName">Last Name:  <%=lname %></label>
+                <br><br>
+                <label for="gender">Gender: <%=genderChoice %></label>
+                <br><br>
+                <label for="weightClass">Weight Class: <%=weightSelection %></label> 
+                <br><br>
+                <button type="submit">Create New Fighter</button>
+            </form>
+        </section>
+        <section >
+            <div class="striking-style cards">
+                <div class="style-card card">
+                    <div class="style-title card-title"><h1><%=titlecard1 %> </h1></div>
+                   <div class="style-image card-image"><img src=<%=strikeimage1 %> alt=""></div>
+                   <div class="style-info card-info"><%=strikedescription1 %></div>
+                </div>
+                <div class="style-card card">
+                    <div class="style-title card-title"><h1><%=titlecard2 %></h1></div>
+                    <div class="style-image card-image"><img src=<%=strikeimage2 %> alt=""></div>
+                    <div class="style-info card-info"> <%=strikedescription2 %></div>
+                </div>
+                <div class="style-card card">
+                    <div class="style-title card-title"><h1><%=titlecard3 %></h1></div>
+                    <div class="style-image card-image"><img src=<%=strikeimage3 %> alt=""></div>
+                    <div class="style-info card-info"><%=strikedescription3 %></div>
+                </div>
+            </div>
+            <div class="grappling-style cards">
+                <div class="style-card card">
+                    <div class="style-title card-title"><h1><%=titlecard4 %></h1></div>
+                    <div class="style-image card-image"><img src=<%=grappleimage1 %> alt=""></div>
+                    <div class="style-info card-info"><%=grappledescription1 %> </div>
+                </div>
+                <div class="style-card card">
+                    <div class="style-title card-title"><h1><%=titlecard5 %></h1></div>
+                    <div class="style-image card-image"><img src=<%=grappleimage2 %> alt=""></div>
+                    <div class="style-info card-info"><%=grappledescription2 %></div>
+                </div>
+                <div class="style-card card">
+                    <div class="style-title card-title"><h1><%=titlecard6 %></h1></div>
+                    <div class="style-image card-image"><img src=<%=grappleimage3 %> alt=""></div>
+                    <div class="style-info card-info"><%=grappledescription3 %></div>
+                </div>
+            </div> 
+        </section>
+    </section>
+    <footer class="page-footer">
+        <h2 class="page-title title">BASED MIXED MARTIAL ARTS</h2>
+        <ul class="footer-links">
+            <li><a href="https://www.ufc.com/" target="_blank"><img src="visual/images/UFCLogo.jpg" alt="ufllogo"></a></li>
+            <li><a href="https://www.bellator.com/" target="_blank"><img src="visual/images/BellatorLogo.png" alt="bellatorlogo"></a></li>
+            <li><a href="https://www.pflmma.com/" target="_blank"><img src="visual/images/PFLLogo.png" alt="pfllogo"></a></li>
+            <li><a href="http://www.rizinff.com/en/" target="_blank"><img src="visual/images/Rizin.png" alt="rizinlogo"></a></li>
+        </ul>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,310 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: yellow;
+    border-bottom: 2px solid black;
+}
+
+.page-nav{
+    background-color: black;
+    border-bottom: 2px solid yellow;
+    height: 55px;
+}
+
+.page-nav img{
+    position: relative;
+    top: 8px;
+    width: 40px;
+    height: 40px;
+    max-height: fit-content;
+}
+
+.page-links{
+    position: relative;
+    display: inline-flex;
+    margin-left: 900px;
+    bottom: 40px;
+}
+
+.page-links li{
+    padding-left: 80px;
+    list-style-type: none;
+}
+
+.page-links a{
+    color: yellow;
+    text-decoration: none;
+}
+
+.page-links a:hover{
+    background-color: yellow;
+    color: black;
+}
+
+.page-title{
+    text-align: center;
+}
+
+.page-body{
+    border-bottom: 2px solid black; 
+    width: fit-content;  
+}
+
+.fighter-bio{
+    width: fit-content;
+}
+
+.fight-bio p{
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.fight-story img{
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin: 10px;
+    border-radius: 100%;
+}
+
+#roycepic{
+    width: 250px;
+    height: 250px;
+    float: right;
+    margin: 10px;
+    border-radius: 100%; 
+}
+
+.style-title{
+    text-align: center;
+    font-size: larger;
+}
+
+.striking-style{
+    display: flex;
+}
+
+.grappling-style{
+    display: flex;
+
+}
+
+.card{
+    width: 300px;
+    height: min-content;
+    background-color: yellow;
+    border: 5px solid black;
+    margin-left: 2px;
+}
+
+
+.style-image{
+    margin: 0 auto;
+}
+
+.style-image img{
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+}
+
+.style-info{
+    word-wrap:normal;
+}
+
+.page-footer{
+    background-color: yellow;
+    height:fit-content;
+}
+
+.footer-links ul{
+    align-items: center;
+}
+
+.footer-links li{
+    display: inline-block;
+    margin-left: 250px;
+}
+
+.footer-links img{
+    width: 50px;
+    height: 50px;
+}
+
+.fight-merch{
+    display: flex;
+}
+
+.fight-item{
+    margin-left: 205px;
+}
+
+.merch-title{
+    text-align: center;
+}
+
+.fight-item-image{
+    width: 150px;
+    height: 150px;
+}
+
+.cart-image{
+    width: 50px;
+    height: 50px;
+}
+
+.cart-input{
+    width: 45px;
+    background-color: rgba(236, 236, 236, 1)
+}
+
+.btn{
+    background-color: yellow;
+    color: black;
+    margin-left: 20px;
+}
+
+.btn:hover{
+    background-color: black;
+    color: yellow;
+}
+
+.cart-container{
+    margin-left:35%;
+}
+
+.cart-header{
+    font-weight: bolder;
+    font-size: larger;
+    margin-bottom: 5px;
+    border-bottom: 5px solid black;
+}
+
+
+
+.cart-column{
+    display: inline-flex;
+    margin-right: 120px;
+}
+
+.cart-total{
+    margin-top: 10px;
+    margin-left: 50%;
+}
+
+.purchase-btn{
+    width: 100px;
+    height: 50px;
+    margin-left: 160px;
+    margin-bottom: 20px;
+}
+
+.fighter-form h2{
+    text-align: center;
+}
+
+.fighter-form{
+    width: 350px;
+    height: 520px;
+    margin-left: 30px;
+    background-color: yellow;
+}
+
+
+.fighter-form label{
+    margin: 0px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.fighter-form button{
+    display: flex;
+    margin: 0 auto;
+}
+
+.fighter-description{
+    width: 1000px;
+    height: 500px;
+    background-color: yellow;
+}
+
+.avatarContainer{
+    margin-left: 65px;
+}
+
+.avatar{
+    width: 200px;
+    height: 200px;
+}
+
+.create-body{
+    display: flex;
+    margin: 30px;
+    border: none;
+}
+
+.fighter-name{
+    text-align: center;
+}
+
+.fighter-styles{
+    display: flex;
+}
+
+.style-description{
+    display: flex;
+    width: 52%;
+    border: 3px solid black;
+}
+
+.style-description img{
+    margin: 35px;
+    width: 100px;
+    height: 100px;
+}
+
+.index-body{
+    border: none;
+}
+
+.index-card{
+    background-color: yellow;
+    width: 1000px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 27%;
+    margin-bottom: 60px;
+    display: flexbox;
+}
+
+.index-description{
+    height: min-content;
+    margin-top: 90px;
+}
+
+.index-description p{
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.index-image{
+    height: 100px;
+    width: 100px;
+    float: right;
+    border-radius: 100%;
+}
+
+.index-image2{
+    height: 100px;
+    width: 100px;
+    float: left;
+    border-radius: 100%;
+}
+
+
+
+
